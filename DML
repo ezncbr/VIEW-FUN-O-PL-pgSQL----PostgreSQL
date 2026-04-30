@@ -1,0 +1,10 @@
+-- ------------------------------------------------------------
+--  DML – Inserção de Usuários
+-- ------------------------------------------------------------
+
+INSERT INTO users (name, email, active) VALUES
+    ('Alice Silva',   'alice@email.com',   true),
+    ('Bruno Costa',   'bruno@email.com',   false),
+    ('Carla Souza',   'carla@email.com',   true),
+    ('Daniel Lima',   'daniel@email.com',  false),
+    ('Elena Santos',  'elena@email.com',   true);
