@@ -1,0 +1,11 @@
+-- ------------------------------------------------------------
+--  VIEW: active_users_view
+-- ------------------------------------------------------------
+
+CREATE OR REPLACE VIEW active_users_view AS
+    SELECT id, name, email
+      FROM users
+     WHERE active = true;
+
+-- Exemplo de uso:
+SELECT * FROM active_users_view;
