@@ -1,0 +1,3 @@
+SELECT check_user_status(1);  -- Usuário ativo
+SELECT check_user_status(2);  -- Usuário inativo
+SELECT check_user_status(99); -- Usuário não encontrado
